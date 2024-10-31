@@ -1,3 +1,4 @@
+import "./App.css";
 import posts from "./data/posts";
 import Post from "./components/Post";
 

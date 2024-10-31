@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+#root {
+  display: flex;
+  justify-content: center;
+}
+
+.timeline {
+  background-color: cadetblue;
+  width: 80%;
+  height: 100vh;
+  border: 1px solid black;
+}
+
+.post {
+  padding: 8px;
+  margin-bottom: 5px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.post div {
+  margin-bottom: 10px;
+}
